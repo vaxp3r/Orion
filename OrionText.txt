@@ -1,0 +1,19 @@
+print("💫Orion Is Injected💫")
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Orion Is Injected",
+    Text = "Thanks For Using Orion Executer!",
+    Icon = "rbxassetid://101005158739400",
+    Duration = 4
+})
+wait(8)
+print("🟢Thanks For Using Orion Executer!🟢")
+print("🎗️discord.gg/WsjUcQ7Rbv🎗️")
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "OrionAPI",
+    Text = "discord.gg/WsjUcQ7Rbv",
+    Icon = "rbxassetid://101005158739400",
+    Duration = 6
+})
+wait(0,1)
+wait(0.1)
+  function printidentity() return print("Current identity is 4") end
